@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        // var a = prompt('enter your name')
+        // console.log(a.toUpperCase())
+
+        // var b = prompt('enter your intial')
+        // console.log(b.toLowerCase())
+
+        // var rev_string = prompt('enter a string')
+        // console.log(rev_string.split("").reverse().join(""))
+
+        // var count_vowels = prompt('enter a string')
+        // var vowels = (count_vowels.match(/[aeiou]/ig))
+        // var count = vowels.lenght
+        // console.log(vowels,count)
+         
+
+        //    var ip1 = prompt('enter your first name')
+        //    var ip2 = prompt('enter your last name')
+        //    var str3 = "@gmail.com";
+        //    console.log(ip1.concat(".",ip2,str3)) 
+
+            //   var string1 = prompt('enter a string to count the charecters')
+            //   console.log(string1.split(""))
+            //   console.log(string1.length)
+
+        
+        var check_palin = prompt('enter a name to check palindrome or not')
+        var temp_palin = (check_palin.split("").reverse().join(""))
+        console.log(check_palin,temp_palin)
+        if (check_palin === temp_palin){
+            console.log('It is a polindrome')
+        }
+        else{
+            console.log("Its not a polindrome")
+        }
+
+
+
+    </script>
+</body>
+</html>
